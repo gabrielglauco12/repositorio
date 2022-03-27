@@ -1,0 +1,40 @@
+body{
+
+  background-color: rgba(10, 6, 216, 0.226); 
+  font: normal 15pt arial;
+  color: black;
+
+
+}
+
+section {
+
+    width: 500px;
+    background-color: white;
+    margin: auto;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px; 
+
+
+}
+
+header{
+
+   text-align: center;
+}
+
+footer{
+
+    font:bold
+
+
+}
+
+img {
+
+  width: 300px;
+  height: 300px;
+  border-radius: 15px;
+  
+  }

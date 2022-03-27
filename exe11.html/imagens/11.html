@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adaptação de imagens</title>
+</head>
+<body>
+    <picture>
+        <source media="(max-width:750px )" srcset="fotop.png">
+        <source media="(max-width: 1050px )" srcset="fotom.png">
+        <img src="fotog.png" alt="imagem flexivel">
+    </picture>
+
+    <audio controls>
+        <source src="vaqueroperdido.mp3" type="audio/mpeg">
+        <source src="vaqueroperdido.ogg" type="audio/ogg">
+        <source src="vaqueroperdido.wav" type="audio/wav">
+    </audio>
+</body>
+</html>

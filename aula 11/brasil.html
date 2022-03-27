@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Treinando condição com Brasileiros sujos</title>
+</head>
+<body>
+    <h1>RASTREADOR DE NACIONALIDADE </h1>  
+    <p>Coloque sua nacionalidade aqui</p> 
+    <input type="text" id="nacio"> 
+    <input type="button" value="Rastrear" onclick="rast()"> 
+    <div id="1">Nacionalidade</div> 
+
+
+</body>
+ 
+    
+
+
+<script>
+function rast() {
+    var na2 = document.getElementById('1') 
+    var nacionalidade = document.getElementById('nacio')
+    if(nacionalidade == 'brasileiro') {
+      
+      na2.innerHTML = 'Você e um macaco do Brasil' 
+
+    } else {
+       
+      na2.innerHTML = `Você e um verme estrangeiro de ${nacionalidade}`
+
+
+    }   
+}
+
+
+
+
+
+
+</script>
+
+</html>

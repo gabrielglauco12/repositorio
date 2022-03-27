@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="cadastro.js"></script>
+    <link rel="stylesheet" href="cadas.css">
+    <title>Cadastro</title>
+</head>
+
+<header><h1> Ache sua alma gêmea </h1></header>
+
+<body>
+    <section>
+        <div class="d1">
+Informe seu nome e sobrenome
+<p></p>        
+<input type="text" id="nome" name="no" value="Nome" onfocus="this.value = '';">
+<p></p>
+Sexualidade
+<p></p>
+<select id="seletor">
+    <option id="op0"></option>
+    <option id="op1">Heterossexual</option>
+    <option id="op2">Homossexual</option>
+    <option id="op3">Bissexual</option>
+</select>
+
+</div>
+
+<div>
+    Data de nascimento
+    <p></p>
+<input type="date" id="data">
+<p></p>
+Nos diga coisas que você gosta
+<p></p>
+Desenho
+<input type="radio" value="Desenho" id="interesse1">
+Programação
+<input type="radio"  value="Programação" id="interesse2">
+Politica
+<input type="radio" value="Politica" id="interesse3">
+Balada
+<input type="radio" value="balada" id="interesse4">
+Videogame
+<input type="radio" value="videogame" id="interesse5">
+Musica
+<input type="radio" value="musica" id="interesse6">
+Treino
+<input type="radio" value="Treino" id="interesse7">
+Cinema
+<input type="radio" id="Cinema" id="interesse8">
+Viagens
+<input type="radio" value="Viagens" id="interesse9">
+Psicologia
+<input type="radio" value="Psicologia" id="interesse10">
+<p></p>
+Seu gênero
+<input type="radio" name="sexo" value="masc" id="masculino">
+<input type="radio" name="sexo" value="fem" id="feminino">
+<p></p>
+<input type="submit" id="env" value="Enviar" onclick="enviar()">
+<input type="button" id="bot2" value="analisar" onclick="analisar()">
+
+</div>
+
+    </section>
+</body>
+</html>

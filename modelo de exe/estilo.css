@@ -1,0 +1,50 @@
+body{ 
+
+    background-color: rgb(56, 134, 134);
+    font: normal 15pt arial;
+    color: rgb(19, 13, 13);
+
+
+}
+
+header {
+
+    color: rgb(7, 7, 7);
+    text-align: center;
+
+}
+
+div{
+
+    text-align: center;
+    padding: 8px;
+
+}
+
+
+section {
+
+    background-color: rgb(250, 246, 246);
+    width: 600px;
+    margin: auto;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.452);
+
+}
+
+img {
+
+   
+   width: 250px ;
+   height: 250px; 
+    border-radius: 50%;
+}
+
+footer {
+
+    color: snow;
+    text-align: center;
+    font-style: italic;
+
+}

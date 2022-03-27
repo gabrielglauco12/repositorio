@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+<body>
+  <h1>CALCULADORA BASICA</h1>  
+<input type="number" id="txtn1" >
+<input type="number" id="txtn2">
+<input type="button" value="somar" onclick="soma()">
+<div id= 'resultado' >  RESULTADO        </div>
+
+<input type="number" id="sub1">
+<input type="number" id='sub2'>
+<input type="button" value="subtrair" onclick="sub()">
+<div id= 'resusub' >   RESULTADO</div>
+
+<input type='number' id="mul1">
+<input type="number" id="mul2">
+<input type="button" value="multiplicar" onclick="mul()">
+<div id="resumul">RESULTADO</div>
+
+<input type="number" id= 'di1'>
+<input type="number" id= 'di2'>
+<input type="button" value="dividir" onclick="div()">
+<div id="resudiv">RESULTADO</div>
+
+
+
+</body>
+
+<script>
+ 
+function soma(){
+
+    var n1 = window.document.getElementById('txtn1') 
+var n2 = document.querySelector('input#txtn2')
+// tudo que vem por caixas de texto vem em formato string então temos que converter
+var n1b = Number.parseFloat(n1.value)
+var n2b = Number.parseFloat(n2.value)
+var soma = n1b + n2b
+var resposta = document.querySelector ('div#resultado')
+resposta.innerHTML = "O resultado da soma de " + n1b + ' com ' + n2b + ' e ' + soma    
+} 
+
+function sub() {
+
+    var s1 = window.document.getElementById('sub1') 
+var s2 = document.querySelector('input#sub2')
+var s1b = Number.parseFloat(s1.value)
+var s2b = Number.parseFloat(s2.value)
+var subtração = s1b - s2b
+var resposta2 = document.querySelector ('div#resusub')
+resposta2.innerHTML = "O resultado da subtração de " + s1b + ' com ' + s2b + ' e ' + subtração     
+    
+} 
+
+
+function mul() {
+
+    var m1 = window.document.getElementById('mul1') 
+var m2 = document.querySelector('input#mul2')
+var m1b = Number.parseFloat(m1.value)
+var m2b = Number.parseFloat(m2.value)
+var multiplcação = m1b * m2b
+var resposta3 = document.querySelector ('div#resumul')
+resposta3.innerHTML = "O resultado da multiplicação de " + m1b + ' com ' + m2b + ' e ' + multiplicaçao 
+}
+
+function div() {
+
+    var d1 = window.document.getElementById('di1') 
+var d2 = document.querySelector('input#di2')
+var d1b = Number.parseFloat(d1.value)
+var d2b = Number.parseFloat(d2.value)
+var divisao = d1b / d2b
+var resposta4 = document.querySelector ('div#resudiv')
+resposta4.innerHTML = "O resultado da divisão de " + d1b + ' com ' + d2b + ' e ' + divisao     
+    
+} 
+
+
+
+
+
+</script>
+
+</html>

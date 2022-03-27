@@ -1,0 +1,11 @@
+body{
+    background-color: rgb(112, 77, 77);
+}
+
+img{
+    height: 70px;
+    width: 70px;
+    position: relative;
+    top: 50px;
+    left: 645px;
+}
